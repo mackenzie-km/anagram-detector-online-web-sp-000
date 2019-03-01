@@ -10,7 +10,7 @@ end
 
 #array of possible anagrams and returns all matches in an array || empty array
 def match(possible_anagrams)
-  
+ possible_anagrams.find
 end 
   
 end 
