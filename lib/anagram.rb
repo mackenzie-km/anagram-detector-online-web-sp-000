@@ -10,7 +10,7 @@ end
 
 #compare letters and find matches 
 def match(possible_anagrams)
-splitted_word = @word.lowercase.split("").sort
+splitted_word = @word.downcase.split("").sort
 possible_anagrams.each do |word|
 word.split("").sort
 end 
