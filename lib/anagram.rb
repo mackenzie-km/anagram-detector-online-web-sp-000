@@ -15,6 +15,7 @@ possible_anagrams.each do |element|
 if splitted_word == element.downcase.split("").sort
   element
 end 
+end
 end 
   
 end 
