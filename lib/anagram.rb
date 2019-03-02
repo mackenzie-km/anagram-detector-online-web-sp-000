@@ -8,9 +8,17 @@ def initialize(word)
   @word = word 
 end 
 
-#array of possible anagrams and returns all matches in an array || empty array
+#helper method: splits array and letters to find matches 
+def split(possible_anagrams)
+  
+end
+
+#compare letters and find matches 
 def match(possible_anagrams)
 splitted word = @word.split("")
+possible_anagrams.each do |word|
+word 
+end 
 end 
   
 end 
