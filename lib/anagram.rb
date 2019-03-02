@@ -10,8 +10,9 @@ end
 
 #compare letters and find matches 
 def match(possible_anagrams)
-  result = []
+result = []
 splitted_word = @word.downcase.split("").sort
+
 possible_anagrams.each do |element|
 if splitted_word == element.downcase.split("").sort
   result << element
